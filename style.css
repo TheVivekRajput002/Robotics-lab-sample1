@@ -127,12 +127,12 @@ body {
     top: 22vh;
     left: 8vw;
     z-index: 1;
-    width: 400px;
+    width: 500px;
     color: white;
 }
 
 .view h1 {
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 12px;
 }
 
@@ -143,11 +143,11 @@ body {
 
 #view {
     border: none;
-    width: 46px;
-    height: 25px;
+    width: 49px;
+    height: 26px;
     border-radius: 40px;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     background: grad;
     background: linear-gradient(90deg, rgb(19, 129, 231), rgba(8, 74, 188, 1));
 }
