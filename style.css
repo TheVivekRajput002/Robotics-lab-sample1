@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(224, 224, 224);
+    background-color: #86A5C4;
 }
 
 /*================= Sec 0 : About College ======================*/
@@ -45,7 +45,7 @@ body {
     width: 100%;
     /* why I can use 100vw */
     height: 60px;
-    background-color: rgba(19, 80, 186, 1);
+    background-color: rgba(30, 42, 120, 1);
 }
 
 .navtxt {
@@ -54,14 +54,14 @@ body {
     align-items: center;
     max-width: 800px;
     margin: auto;
-    background-color: rgba(19, 80, 186, 1);
+    background-color: rgba(30, 42, 120, 1);
     height: 60px;
 }
 
 .navtxt a {
     text-decoration: none;
     color: white;
-    background-color: rgba(19, 80, 186, 1);
+    background-color: rgba(30, 42, 120, 1);
     font-size: 15px;
     transition: transform 0.15s ease-in-out;
 
@@ -73,7 +73,7 @@ body {
 }
 
 .home {
-    background-image: url(images/Rectangle\ 1.svg);
+    background: linear-gradient(90deg, #002244, #0C5CAC);
     height: calc(100vh - 120px);
     object-fit: cover;
     position: relative;
