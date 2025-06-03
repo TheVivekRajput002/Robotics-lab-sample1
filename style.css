@@ -4,8 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
-     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -15,26 +15,26 @@ body {
 /*================= Sec 0 : About College ======================*/
 
 .college {
-    height: 85px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
 
 .college img {
     padding-left: 30px;
-    height: 55px;
+    height: 53px;
     padding-right: 15px;
 }
 
 .college .collegeName a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .college .collegeName p {
-    margin-bottom: -5px;
-    font-size: 24px;
+    margin-bottom: -3px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .navtxt {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: 800px;
     margin: auto;
@@ -74,7 +74,7 @@ body {
 
 .home {
     background-image: url(images/Rectangle\ 1.svg);
-    height: calc(100vh - 145px);
+    height: calc(100vh - 120px);
     object-fit: cover;
     position: relative;
 }
@@ -89,7 +89,7 @@ body {
 
 .TitleOfImage {
     background-color: rgb(0, 0, 0, 0.8);
-    height: 50px;
+    height: 60px;
     width: 40vw;
     position: absolute;
     top: 10vh;
@@ -98,7 +98,7 @@ body {
 }
 
 .TitleOfImage img {
-    height: 35px;
+    height: 40px;
     width: auto;
     position: absolute;
     top: 8px;
@@ -107,10 +107,12 @@ body {
 
 .TitleOfImage .TOItxt :nth-child(1) {
     color: white;
-    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     position: absolute;
     left: 65px;
-    top: 10px;
+    top: 12px;
+    font-size: 18px;
 }
 
 .TitleOfImage .TOItxt :nth-child(2) {
@@ -118,13 +120,13 @@ body {
     font-family: "Inter", sans-serif;
     position: absolute;
     left: 66px;
-    top: 30px;
-    font-size: 8px;
+    top: 34px;
+    font-size: 10px;
 }
 
 .view {
     position: absolute;
-    top: 22vh;
+    top: 19vh;
     left: 8vw;
     z-index: 1;
     width: 500px;
@@ -132,22 +134,23 @@ body {
 }
 
 .view h1 {
-    font-size: 25px;
-    margin-bottom: 12px;
+    font-size: 27px;
+    margin-bottom: 16px;
 }
 
 .view p {
-    font-size: 13px;
-    margin-bottom: 14px;
+    font-size: 14px;
+    margin-bottom: 13px;
+    font-weight: 300;
 }
 
 #view {
     border: none;
-    width: 49px;
-    height: 26px;
-    border-radius: 40px;
+    width: 53px;
+    height: 30px;
+    border-radius: 30px;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     background: grad;
     background: linear-gradient(90deg, rgb(19, 129, 231), rgba(8, 74, 188, 1));
 }
@@ -159,7 +162,7 @@ body {
 /* ========================Sec 2: Video =============== */
 
 .videosec {
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,16 +170,16 @@ body {
 }
 
 .videosec video {
-    width: 600px;
+    width: 700px;
     margin-bottom: 5px;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 .trackRecords {
     height: 100px;
-    width: 600px;
+    width: 700px;
     background-color: rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -199,7 +202,10 @@ body {
 .trackRecords .track h2 {
     font-size: 25px;
     margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
+
 
 .trackRecords .track :nth-child(2) {
     font-size: 8px;
@@ -216,18 +222,18 @@ body {
 .introduction {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
 }
 
 .paragraph {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 .paragraph img {
     width: 380px;
-    border-radius: 10px;
+    border-radius: 6px;
     transition: transform 0.2s ease-in-out;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.031);
 }
@@ -238,17 +244,17 @@ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.085);
 }
 
 .paragraph .txt {
-    width: 400px;
+    width: 40vw;
 }
 
 .paragraph .txt p {
     margin-top: 15px;
     text-align: justify;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .paragraph .txt h2{
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 20px;
 }
 
@@ -445,4 +451,13 @@ transform: scale(1.09);
     display: block;
     margin-top: 30px;
     opacity: 0.45;
+}
+
+@media (max-width: 834px) {
+
+    *{
+        /* background-color: black; */
+    }
+
+
 }
