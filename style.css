@@ -29,12 +29,12 @@ body {
 .college .collegeName a {
     text-decoration: none;
     color: black;
-    font-size: 11px;
+    font-size: 0.6em;
 }
 
 .college .collegeName p {
-    margin-bottom: -4px;
-    font-size: 22px;
+    margin-bottom: -5px;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
