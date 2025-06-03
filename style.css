@@ -248,23 +248,24 @@ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.085);
 }
 
 .paragraph .txt p {
-    margin-top: 15px;
+    margin-top: 13px;
     text-align: justify;
     font-size: 13px;
 }
 
 .paragraph .txt h2{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #teamm {
+    margin-top: 6px;
     border: none;
-    width: 95px;
-    height: 34px;
-    border-radius: 40px;
+    width: 104px;
+    height: 37px;
+    border-radius: 45px;
     color: white;
-    font-size: 9px;
+    font-size: 10px;
     background: grad;
     background: linear-gradient(90deg, rgb(19, 129, 231), rgba(8, 74, 188, 1));
 }
@@ -277,22 +278,25 @@ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.085);
 
 .message {
     padding-top: 100px;
-    height: 500px;
+    height: 600px;
+}
+
+.message h1{
+    padding-bottom: 30px;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 80vw;
     margin: auto;
     display: flex;
-    /* gap: 20px; */
 }
 
 .cards {
     padding: 0px 25px 20px;
     background-color: white;
-    width: 310px;
+    width: 340px;
     margin: auto;
-    border-radius: 18px;
+    border-radius: 22px;
     box-shadow: 0 4px 25px rgba(0, 255, 255, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease;
@@ -305,24 +309,24 @@ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.085);
 
 .message h1 {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 72px;
 }
 
 .container .cards img {
     margin-bottom: -30px;
     border-radius: 500px;
-    width: 70px;
+    width: 80px;
     position: relative;
     top: -40px;
     left: -4px;
 }
 
 .box :nth-child(1) {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .box :nth-child(3) {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .box .line {
@@ -333,15 +337,16 @@ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.085);
 }
 
 .box :nth-child(4) {
+    margin-top: 4px;
     color: rgba(0, 0, 0, 0.4);
-    font-size: 9px;
+    font-size: 10px;
 }
 
 /* =================================Sec 5: Footer ============================ */
 
 footer {
     background-color: black;
-    height: 300px;
+    height: 400px;
 }
 
 .upperf {
@@ -365,39 +370,42 @@ footer {
 }
 
 .footercollege img {
-    height: 33px;
+    height: 42px;
     padding-right: 10px;
 }
 
 .footercollege .footercollegeName {
-    font-size: 9px;
+    font-size: 15px;
 }
 
 .footercollege .footercollegeName a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
 }
 
 .footercollege .footercollegeName p {
-    font-size: 0.8em;
+    margin-top: -0.2px;
+    font-size: 10x;
 }
 
 .collegeDetails p {
+    margin-top: 7px;
+    font-weight: 300;
     color: white;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 
 .icons {
-    margin-top: 13px;
+    margin-top: 15px;
     display: flex;
     gap: 10px;
 }
 
 .icons img {
-    height: 25px;
+    height: 35px;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -407,15 +415,15 @@ footer {
 
 .footerTXT {
     /* opacity: 0.45; */
-    margin-right: 6%;
+    margin-right: 5%;
     display: flex;
-    gap: 45px;
+    gap: 55px;
 }
 
 .footerTXT a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.411);
-    font-size: 0.7em;
+    font-size: 13px;
     transition: transform 0.15s ease-in-out;
 }
 
@@ -427,7 +435,7 @@ transform: scale(1.09);
 .column {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .lowerf {
@@ -447,7 +455,7 @@ transform: scale(1.09);
 .lowerf a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     display: block;
     margin-top: 30px;
     opacity: 0.45;
