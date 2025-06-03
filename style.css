@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     color: white;
     background-color: rgba(19, 80, 186, 1);
-    font-size: 0.9em;
+    font-size: 13px;
     transition: transform 0.15s ease-in-out;
 
 }
