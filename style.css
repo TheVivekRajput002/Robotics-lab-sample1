@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -227,7 +225,6 @@ body {
 .trackRecords .track :nth-child(3) {
     color: rgba(0, 0, 0, 0.5);
     font-size: 8px;
-    margi
 }
 
 /* ========================Sec 3 : Introduction =========================== */
@@ -498,7 +495,7 @@ footer {
         font-size: 10px;
     }
 
-    .home{
+    .home {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -507,44 +504,137 @@ footer {
     }
 
 
-    .mainImage img{
-        width: 60vw;
+    .mainImage img {
+        width: 70vw;
         position: unset;
         margin: 5vh 0px 6vh;
     }
 
-    .view{
+
+
+    .view {
         background-color: none;
-        position:unset;
-        width: 60vw;
+        position: unset;
+        width: 70vw;
     }
 
-    .view h1{
+    .view h1 {
         font-size: 20px;
         margin-bottom: 14px;
     }
 
 
-    .view p{
-        font-size: 10px;
+    .view p {
+        font-size: 9px;
         margin-bottom: 8px;
 
     }
 
-    #view{
+    #view {
         scale: 0.8;
     }
 
+    /* sec 2: video  */
 
 
+    .videosec {
+        height: 450px;
+    }
 
 
+    .videosec video {
+        width: 85vw;
+
+    }
+
+    .trackRecords {
+        width: 85vw;
+        height: 70px;
+    }
+
+    .trackRecords .track h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .trackRecords .track :nth-child(2) {
+        font-size: 6px;
+    }
+
+    .trackRecords .track :nth-child(3) {
+        font-size: 6px;
+    }
+
+    /* sec 3: .introduction  */
 
 
     .paragraph {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .introduction :nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .paragraph .txt {
+        width: 75vw;
+    }
+
+    .paragraph .txt p {
+        font-size: 10px;
+    }
+
+    .paragraph img {
+        width: 75vw;
+    }
+
+
+    /* sec 4: mentors .message  */
+
+    .message {
+        height: 1100px;
+    }
+
+    .ccontainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .ccontainer .cards img {
+    margin-bottom: -15px;
+    border-radius: 500px;
+    width: 60px;
+    position: relative;
+    top: -30px;
+    left: -16vw;
+}
+
+    .cards {
+        width: 65vw;
+        padding: 0px 25px 0px;
+        border-radius: 30px;
+    }
+
+    .box :nth-child(1), .box :nth-child(3){
+        font-size: 9px;
+    }
+
+    .box .line{
+        margin-bottom: ;
+    }
+
+    .box :nth-child(4){
+        font-size: 9px;
+        margin-top: -15px;
+    }
+
+
+
 
     .footerTXT {
         gap: 1px;
