@@ -88,8 +88,8 @@ body {
 .mainImage img {
     width: 40vw;
     position: absolute;
-    top: 10vh;
-    right: 6vw;
+    top: 2vh;
+    right: 4vw;
     z-index: 1;
 }
 
