@@ -633,15 +633,72 @@ footer {
         margin-top: -15px;
     }
 
-
+/* sec 5: footer  */
 
 
     .footerTXT {
         gap: 1px;
     }
 
+    .upperf{
+        height: 85%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
 
+    .collegeDetails{
+        width: 85%;
+    }
 
+    .footercollege img{
+        margin-bottom: 10px;
+        height: 35px;
+    }
 
+    .footer .footercollege{
+        height: 32px;
+    }
+
+    .footercollege .footercollegeName a{
+        font-size: 13px;
+    }
+    .footercollege .footercollegeName p{
+        font-size: 8px;
+    }
+
+    .collegeDetails p{
+        font-size: 9px;
+    }
+
+    .footercollege{
+        height: 30px;
+    }
+
+    .icons img{
+        margin-top: -7px;
+        height: 25px;
+    }
+
+    .footerTXT{
+        justify-content: space-between;
+        display: flex;
+        width: 88%;
+    }
+
+    .footerTXT a{
+        font-size: 9px;
+    }
+
+    .lowerf a{
+        font-size: 10px;
+        background-color: rgba(67, 67, 67, 0.2);
+
+    }
 
 }
+
+
