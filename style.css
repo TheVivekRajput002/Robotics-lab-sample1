@@ -298,12 +298,13 @@ body {
     max-width: 80vw;
     margin: auto;
     display: flex;
+    gap: 3vw;
 }
 
 .cards {
-    padding: 0px 25px 20px;
+    padding: 0px 25px 10px;
     background-color: white;
-    width: 340px;
+    width: 30vw;
     margin: auto;
     border-radius: 22px;
     box-shadow: 0 6px 25px rgba(0, 255, 255, 0.04);
