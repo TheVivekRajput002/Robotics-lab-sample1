@@ -22,19 +22,19 @@ body {
 
 .college img {
     padding-left: 30px;
-    height: 53px;
+    height: 55px;
     padding-right: 15px;
 }
 
 .college .collegeName a {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .college .collegeName p {
-    margin-bottom: -3px;
-    font-size: 22px;
+    margin-bottom: -6px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 800px;
+    max-width: 80vw;
     margin: auto;
     background-color: rgba(30, 42, 120, 1);
     height: 100%;
@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     color: white;
     background-color: rgba(30, 42, 120, 1);
-    font-size: 15px;
+    font-size: 16px;
     transition: transform 0.15s ease-in-out;
 
 }
@@ -140,23 +140,23 @@ body {
 }
 
 .view h1 {
-    font-size: 27px;
+    font-size: 29px;
     margin-bottom: 16px;
 }
 
 .view p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 13px;
     font-weight: 300;
 }
 
 #view {
     border: none;
-    width: 53px;
-    height: 30px;
+    width: 55px;
+    height: 32px;
     border-radius: 30px;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     background: grad;
     background: linear-gradient(90deg, rgb(19, 129, 231), rgba(8, 74, 188, 1));
 }
@@ -178,21 +178,22 @@ body {
 }
 
 .videosec video {
-    width: 50vw;
+    width: 55vw;
     margin-bottom: 5px;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
 .trackRecords {
-    height: 100px;
-    width: 50vw;
+    height: 110px;
+    width: 55vw;
     background-color: rgb(255, 255, 255);
-    border-radius: 12px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
+    padding: 20px 5px 5px 0px;
 
 }
 
@@ -209,21 +210,21 @@ body {
 }
 
 .trackRecords .track h2 {
-    font-size: 25px;
+    font-size: 26px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
 }
 
 
 .trackRecords .track :nth-child(2) {
-    font-size: 8px;
+    font-size: 11px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: -2px;
 }
 
 .trackRecords .track :nth-child(3) {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 8px;
+    font-size: 11px;
 }
 
 /* ========================Sec 3 : Introduction =========================== */
@@ -259,22 +260,22 @@ body {
 .paragraph .txt p {
     margin-top: 13px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .paragraph .txt h2 {
     margin-top: 15px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 #teamm {
     margin-top: 6px;
     border: none;
-    width: 104px;
-    height: 37px;
+    width: 115px;
+    height: 39px;
     border-radius: 45px;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     background: grad;
     background: linear-gradient(90deg, rgb(19, 129, 231), rgba(8, 74, 188, 1));
 }
@@ -332,7 +333,7 @@ body {
 }
 
 .box :nth-child(1) {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .box :nth-child(3) {
@@ -347,7 +348,7 @@ body {
 }
 
 .box :nth-child(4) {
-    margin-top: 4px;
+    margin-top: -12px;
     color: rgba(0, 0, 0, 0.4);
     font-size: 10px;
 }
@@ -433,7 +434,7 @@ footer {
 .footerTXT a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.411);
-    font-size: 13px;
+    font-size: 14px;
     transition: transform 0.15s ease-in-out;
 }
 
@@ -477,6 +478,18 @@ footer {
         /* background-color: rgb(192, 191, 191); */
     }
 
+    .college img{
+        height: 50px;
+    }
+
+    .college .collegeName p{
+        font-size: 20px;
+    }
+
+    .college .collegeName a{
+        font-size: 12px;
+    }
+
     /* sec 1: navbar  */
 
     .navbarr {
@@ -491,8 +504,12 @@ footer {
         display: none;
     }
 
+    .navtxtt :nth-child(5) {
+        display: none;
+    }
+
     .navtxtt a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .home {
@@ -518,14 +535,14 @@ footer {
     }
 
     .view h1 {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 14px;
         margin-top: -0px;
     }
 
 
     .view p {
-        font-size: 9px;
+        font-size: 11px;
         margin-bottom: 8px;
 
     }
@@ -548,21 +565,22 @@ footer {
     }
 
     .trackRecords {
+        padding: 30px 5px 30px;
         width: 85vw;
         height: 85px;
     }
 
     .trackRecords .track h2 {
-        font-size: 21px;
+        font-size: 22px;
         margin-top: 10px;
     }
 
     .trackRecords .track :nth-child(2) {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .trackRecords .track :nth-child(3) {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     /* sec 3: .introduction  */
@@ -585,7 +603,7 @@ footer {
     }
 
     .paragraph .txt p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .paragraph img {
@@ -622,15 +640,12 @@ footer {
     }
 
     .box :nth-child(1), .box :nth-child(3){
-        font-size: 9px;
+        font-size: 10px;
     }
 
-    .box .line{
-        margin-bottom: ;
-    }
 
     .box :nth-child(4){
-        font-size: 9px;
+        font-size: 10px;
         margin-top: -15px;
     }
 
@@ -657,22 +672,22 @@ footer {
 
     .footercollege img{
         margin-bottom: 10px;
-        height: 35px;
+        height: 37px;
     }
 
     .footer .footercollege{
-        height: 32px;
+        height: 34px;
     }
 
     .footercollege .footercollegeName a{
-        font-size: 13px;
+        font-size: 16px;
     }
     .footercollege .footercollegeName p{
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .collegeDetails p{
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .footercollege{
@@ -681,7 +696,7 @@ footer {
 
     .icons img{
         margin-top: -7px;
-        height: 25px;
+        height: 27px;
     }
 
     .footerTXT{
@@ -691,7 +706,7 @@ footer {
     }
 
     .footerTXT a{
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .lowerf a{
@@ -701,5 +716,7 @@ footer {
     }
 
 }
+
+
 
 
